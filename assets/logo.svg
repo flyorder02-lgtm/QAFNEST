@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="qn-gold" x1="12" y1="8" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5EFE6"/>
+      <stop offset="0.5" stop-color="#D4AF7C"/>
+      <stop offset="1" stop-color="#C49A63"/>
+    </linearGradient>
+  </defs>
+  <path d="M12 40c0 10 9 18 20 18s20-8 20-18" stroke="url(#qn-gold)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M18 37c0 7.2 6.2 13 14 13s14-5.8 14-13" stroke="url(#qn-gold)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M24 34.5c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke="url(#qn-gold)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M32 10v16" stroke="url(#qn-gold)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M21 22 32 11l11 11" stroke="url(#qn-gold)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

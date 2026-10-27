@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0F2D2D" />
+  <title>QAFNEST — Stays &amp; Hospitality</title>
+  <meta name="description" content="Feel at home. Stay exceptional. Discover thoughtfully curated stays where comfort, quality, and exceptional hospitality come together." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="logo" href="#top" aria-label="QAFNEST home">
+        <img src="assets/logo.svg" alt="" width="32" height="32" />
+        <span class="logo-text">QAFNEST</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#top" aria-current="page">Home</a>
+        <a href="#stays">Stays</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-gold" href="#stays">Explore Stays</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <nav aria-label="Mobile">
+      <a href="#top">Home</a>
+      <a href="#stays">Stays</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-gold" href="#stays">Explore Stays</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-title">
+            <span class="hero-en">QAFNEST</span>
+            <span class="hero-pipe" aria-hidden="true">|</span>
+          </p>
+          <p class="hero-ar">قفنست</p>
+          <span class="gold-rule" aria-hidden="true"></span>
+          <h1>Feel at home. Stay exceptional.</h1>
+          <p class="hero-lead">Discover thoughtfully curated stays where comfort, quality, and exceptional hospitality come together.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#stays">Explore Stays</a>
+            <a class="btn btn-ghost" href="#about">Discover QAFNEST</a>
+          </div>
+        </div>
+        <div class="hero-mark" aria-hidden="true">
+          <img src="assets/mark.svg" alt="" width="280" height="320" />
+        </div>
+      </div>
+    </section>
+
+    <section class="search" id="search" aria-labelledby="search-heading">
+      <div class="container">
+        <h2 id="search-heading" class="sr-only">Search stays</h2>
+        <form class="search-bar" action="#stays" method="get">
+          <label class="field">
+            <span>Destination</span>
+            <input id="destination" name="destination" type="text" placeholder="Where would you like to stay?" autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Check-in</span>
+            <input id="checkin" name="checkin" type="date" />
+          </label>
+          <label class="field">
+            <span>Check-out</span>
+            <input id="checkout" name="checkout" type="date" />
+          </label>
+          <label class="field">
+            <span>Guests</span>
+            <select id="guests" name="guests">
+              <option value="1">1 guest</option>
+              <option value="2" selected>2 guests</option>
+              <option value="3">3 guests</option>
+              <option value="4">4 guests</option>
+              <option value="5">5+ guests</option>
+            </select>
+          </label>
+          <button class="btn btn-gold search-submit" type="submit">Search Stays</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section why" id="why">
+      <div class="container">
+        <p class="eyebrow">QAFNEST | معايير الضيافة.</p>
+        <h2>Why choose QAFNEST</h2>
+        <p class="lead">Three reasons guests return to a stay that feels like home.</p>
+        <p class="note">At QAFNEST, every stay is chosen for comfort, quality, and a considered guest experience.</p>
+
+        <div class="why-grid">
+          <article class="why-card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="11" cy="11" r="6.2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="m15.5 15.5 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="num">01</p>
+            <h3>Thoughtfully Selected</h3>
+            <p>Spaces chosen for comfort and quality.</p>
+          </article>
+          <article class="why-card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M5 12 12 5l7 7" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <path d="M7 10.5V19h10v-8.5" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <p class="num">02</p>
+            <h3>Comfort That Feels Like Home</h3>
+            <p>Welcoming spaces for effortless stays.</p>
+          </article>
+          <article class="why-card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="7" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="12" cy="12" r="2.2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M12 5v2M12 17v2M5 12h2M17 12h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="num">03</p>
+            <h3>Hospitality in Every Detail</h3>
+            <p>A considered, guest-focused experience.</p>
+          </article>
+        </div>
+        <p class="why-foot">Feel at home. Stay exceptional.</p>
+      </div>
+    </section>
+
+    <section class="section stays" id="stays">
+      <div class="container">
+        <p class="eyebrow">Featured stays</p>
+        <h2>Spaces chosen with care.</h2>
+        <p class="lead">A considered collection of villas, apartments, and residences.</p>
+
+        <div class="stays-grid">
+          <article class="stay">
+            <div class="stay-photo">
+              <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="A modern villa with a still pool and open living terrace" width="1200" height="900" />
+            </div>
+            <p class="stay-type">Villa</p>
+            <h3>Private villa</h3>
+            <p class="stay-place">A generous residence</p>
+            <p class="stay-copy">Open rooms, quiet gardens, and the ease of a home prepared for unhurried days.</p>
+            <a class="text-link" href="#stays">View Stay <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="stay">
+            <div class="stay-photo">
+              <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="A bright apartment interior with natural light and refined furnishings" width="1200" height="900" />
+            </div>
+            <p class="stay-type">Apartment</p>
+            <h3>City apartment</h3>
+            <p class="stay-place">A refined urban stay</p>
+            <p class="stay-copy">Calm interiors and considered details, designed for comfort in the heart of the city.</p>
+            <a class="text-link" href="#stays">View Stay <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="stay">
+            <div class="stay-photo">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="A contemporary residence with warm stone, glass, and landscaped grounds" width="1200" height="900" />
+            </div>
+            <p class="stay-type">Residence</p>
+            <h3>Quiet residence</h3>
+            <p class="stay-place">A considered home</p>
+            <p class="stay-copy">Warm textures, generous light, and a setting that invites you to settle in.</p>
+            <a class="text-link" href="#stays">View Stay <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+
+        <div class="center-row">
+          <a class="btn btn-ghost" href="#stays">Explore All Stays</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-copy">
+        <div class="about-inner">
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M5.5 19c.8-3.2 3.4-5 6.5-5s5.7 1.8 6.5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <p class="eyebrow">About QAFNEST</p>
+          <h2>More than a place to stay.</h2>
+          <p class="lead">At QAFNEST, every stay is an opportunity to feel comfortable, connected, and cared for.</p>
+          <p class="note">We believe exceptional hospitality begins with the details that make a place feel like home.</p>
+          <a class="btn btn-gold" href="#stays">Explore Stays <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="about-photo">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="A sunlit living room with linen seating, timber, and a quiet sense of home" width="1400" height="900" />
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-box">
+        <p class="eyebrow">Begin here</p>
+        <h2>Your next exceptional stay starts here.</h2>
+        <p class="note">Find a space that feels right for you.</p>
+        <a class="btn btn-gold" href="#stays">Explore Stays</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#top" aria-label="QAFNEST home">
+          <img src="assets/logo.svg" alt="" width="28" height="28" />
+          <span class="logo-text">QAFNEST</span>
+          <span class="logo-ar">قفنست</span>
+        </a>
+        <p class="footer-kicker">STAYS &amp; HOSPITALITY</p>
+        <p class="footer-text">Feel at home. Stay exceptional. Thoughtfully curated stays, guided by the standards of hospitality.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#stays">Stays</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#contact">Terms</a></li>
+          <li><a href="#contact">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <p>QAFNEST — Stays &amp; Hospitality</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
